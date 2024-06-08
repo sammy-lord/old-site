@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<script src="frontend.js"></script>
+<script>
+initHead("FrontendJS Example")
+initBody()
+clearPage()
+writeHTML("body", markdownToHTML(`# Hello world!
+
+This is an example of how to properly use Frontend JS.
+Also it's a test if things are working.
+
+* Air
+* Water
+* Fire
+* Dirt
+* ####ing magnets, how do they work!?!
+`))
+createParagraph("paragraphLorum", `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar nisl eu risus tincidunt, non aliquet metus tempor. Duis ac tortor commodo, venenatis leo at, consectetur nulla.`)
+createImage("moz", "https://upload.wikimedia.org/wikipedia/commons/5/5c/Mozilla_dinosaur_head_logo.png")
+applyCSS("moz", "width", "25%")
+let dino = createButton("dino", "dino sound")
+changeAttributes(dino, {"onclick": "spin('moz', 1000); playAudio(`https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3`, 0.4)"})
+applyCSS("body", "background", "black")
+applyCSS("body", "color", "lime")
+importGoogleFont('Roboto');
+applyCSS("body", "font-family", "'Roboto', sans-serif")
+</script>
+</html>

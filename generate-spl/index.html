@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPL Generator</title>
+</head>
+<body>
+
+    <h2>Samuel Public License Generator</h2>
+
+    <form id="splForm">
+        <label for="name">Your Name or Organization:</label>
+        <textarea id="name" rows="2" cols="30"></textarea>
+
+        <button type="button" onclick="generateSPL()">Generate SPL</button>
+    </form>
+
+    <script>
+        function generateSPL() {
+            // Get the name from the textarea
+            const name = document.getElementById('name').value;
+
+            // Fetch the latest SPL template
+            fetch('https://raw.githubusercontent.com/sam-sneed/spl-template/main/spl')
+                .then(response => response.text())
+                .then(template => {
+                    // Replace placeholders with actual values
+                    const fullNumericYear = new Date().getFullYear();
+                    const splText = template.replace('FULL-NUMERIC-YEAR', fullNumericYear).replace('YOUR-REAL-NAME-OR-ORG', name);
+
+                    // Set the body content to the generated SPL text
+                    document.body.innerText = `${splText}`;
+                })
+                .catch(error => console.error('Error fetching SPL template:', error));
+        }
+    </script>
+
+
+</body>
+</html>
+

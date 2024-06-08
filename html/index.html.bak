@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Resume</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;"><img src="node.png" alt="NodeMixaholic Icon"
+        style="width: 99px; height: 99px;">Samuel Lord's Resume</h1>
+    <ul style="text-align: center;">
+    </ul>
+    <div style="text-align: center;">Phone: 409-225-2252<br>
+      Email: <a href="mailto:work@nodemixaholic.com" target="_new">work@nodemixaholic.com</a><br>
+      Clearnet Portfolio: <a href="https://github.com/NodeMixaholic" target="_new">GitHub</a>,
+      <a href="https://sparksammy.com" target="_new">Personal Blog</a></div>
+    <p></p>
+    <hr>
+    <p><br>
+    </p>
+    <h1 style="text-align: center;"></h1>
+    <h2> <img src="me.png" alt="a photo of me" style="width: 61px; height: 160px;"><strong>Summary:</strong>
+    </h2>
+    <div class="markdown prose w-full break-words dark:prose-invert light">
+      <p>High school-educated coder with expertise in LuaU, C#, JavaScript, and
+        NodeJS. Passionate about open source contributions and ROBLOX
+        development. Adobe Certified Associate in Premiere Pro and Adobe Flash
+        CS6. A tech enthusiast who occasionally shares insights through blog
+        posts.</p>
+      <h2 style="text-align: left;"><strong>Education:</strong></h2>
+      <ul style="text-align: left;">
+        <li>High School Diploma<br>
+          <ul>
+            <li><a href="ppcert.pdf">Adobe Certified Associate in Premiere Pro</a></li>
+            <li><a href="flashcert.pdf">Adobe Certified Associate in Adobe Flash
+                CS6</a></li>
+            <li>Graduated from Home School</li>
+            <ul>
+              <li>Switched between public and home schools multiple times.</li>
+              <li>We named our home school "Eureka Learning Academy"</li>
+              <ul>
+                <li>Because we wanted it to sound smart.</li>
+              </ul>
+            </ul>
+          </ul>
+        </li>
+      </ul>
+      <h2 style="text-align: left;"><strong>Skills:</strong></h2>
+      <ul style="text-align: left;">
+        <li>Languages: LuaU, C#, JavaScript, NodeJS</li>
+        <li>ROBLOX Development</li>
+        <li>Contributions to Open Source</li>
+      </ul>
+      <h2 style="text-align: left;"><strong>Work Experience:</strong></h2>
+      <ul style="text-align: left;">
+        <li>
+          <p>Open Source Contributor</p>
+          <ul>
+            <li>GitHub: <a href="https://github.com/NodeMixaholic" target="_new">NodeMixaholic
+                (clearnet page!)<br>
+              </a></li>
+            <li>Actively involved in various open source projects.</li>
+            <li>Demonstrated proficiency in code contributions and collaboration
+              with the developer community.</li>
+          </ul>
+        </li>
+        <li>
+          <p>ROBLOX Experience Developer</p>
+          <ul>
+            <li>Created numerous ROBLOX experiences, showcasing creative game
+              design and scripting skills.</li>
+          </ul>
+        </li>
+      </ul>
+      <h2 style="text-align: left;"><strong>Projects:</strong></h2>
+      <ul style="text-align: left;">
+        <li>GitHub Portfolio: <a href="https://github.com/NodeMixaholic" target="_new">NodeMixaholic
+            GitHub Profile (clearnet page!)<br>
+          </a>
+          <ul>
+            <li>Extensive list of open-source contributions, demonstrating
+              coding proficiency and commitment to the developer community.</li>
+          </ul>
+        </li>
+      </ul>
+      <h2 style="text-align: left;"><strong>Blog Posts:</strong></h2>
+      <ul style="text-align: left;">
+        <li>Personal Blog: <a href="https://sparksammy.com" target="_new">Sparksammy
+            Blog (clearnet page!)<br>
+          </a>
+          <ul>
+            <li>Authored occasional blog posts sharing insights and tech-related
+              thoughts.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <p><br>
+    </p>
+  </body>
+</html>
